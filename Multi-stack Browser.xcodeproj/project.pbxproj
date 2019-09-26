@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0873F5B8233CA937007EFDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873F5B7233CA937007EFDCD /* AppDelegate.swift */; };
+		0873F5BA233CA937007EFDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873F5B9233CA937007EFDCD /* ViewController.swift */; };
+		0873F5BC233CA939007EFDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0873F5BB233CA939007EFDCD /* Assets.xcassets */; };
+		0873F5BF233CA939007EFDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0873F5BD233CA939007EFDCD /* Main.storyboard */; };
+		0873F5CB233CA939007EFDCD /* Multi_stack_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873F5CA233CA939007EFDCD /* Multi_stack_BrowserTests.swift */; };
+		0873F5D6233CA939007EFDCD /* Multi_stack_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873F5D5233CA939007EFDCD /* Multi_stack_BrowserUITests.swift */; };
+		0873F5E4233CABA0007EFDCD /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873F5E3233CABA0007EFDCD /* WindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0873F5C7233CA939007EFDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0873F5AC233CA937007EFDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0873F5B3233CA937007EFDCD;
+			remoteInfo = "Multi-stack Browser";
+		};
+		0873F5D2233CA939007EFDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0873F5AC233CA937007EFDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0873F5B3233CA937007EFDCD;
+			remoteInfo = "Multi-stack Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0873F5B4233CA937007EFDCD /* Multi-stack Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-stack Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0873F5B7233CA937007EFDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0873F5B9233CA937007EFDCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0873F5BB233CA939007EFDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0873F5BE233CA939007EFDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0873F5C0233CA939007EFDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0873F5C1233CA939007EFDCD /* Multi_stack_Browser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multi_stack_Browser.entitlements; sourceTree = "<group>"; };
+		0873F5C6233CA939007EFDCD /* Multi-stack BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-stack BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0873F5CA233CA939007EFDCD /* Multi_stack_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_stack_BrowserTests.swift; sourceTree = "<group>"; };
+		0873F5CC233CA939007EFDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0873F5D1233CA939007EFDCD /* Multi-stack BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-stack BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0873F5D5233CA939007EFDCD /* Multi_stack_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_stack_BrowserUITests.swift; sourceTree = "<group>"; };
+		0873F5D7233CA939007EFDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0873F5E3233CABA0007EFDCD /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0873F5B1233CA937007EFDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5C3233CA939007EFDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5CE233CA939007EFDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0873F5AB233CA937007EFDCD = {
+			isa = PBXGroup;
+			children = (
+				0873F5B6233CA937007EFDCD /* Multi-stack Browser */,
+				0873F5C9233CA939007EFDCD /* Multi-stack BrowserTests */,
+				0873F5D4233CA939007EFDCD /* Multi-stack BrowserUITests */,
+				0873F5B5233CA937007EFDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0873F5B5233CA937007EFDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0873F5B4233CA937007EFDCD /* Multi-stack Browser.app */,
+				0873F5C6233CA939007EFDCD /* Multi-stack BrowserTests.xctest */,
+				0873F5D1233CA939007EFDCD /* Multi-stack BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0873F5B6233CA937007EFDCD /* Multi-stack Browser */ = {
+			isa = PBXGroup;
+			children = (
+				0873F5B7233CA937007EFDCD /* AppDelegate.swift */,
+				0873F5E3233CABA0007EFDCD /* WindowController.swift */,
+				0873F5B9233CA937007EFDCD /* ViewController.swift */,
+				0873F5BB233CA939007EFDCD /* Assets.xcassets */,
+				0873F5BD233CA939007EFDCD /* Main.storyboard */,
+				0873F5C0233CA939007EFDCD /* Info.plist */,
+				0873F5C1233CA939007EFDCD /* Multi_stack_Browser.entitlements */,
+			);
+			path = "Multi-stack Browser";
+			sourceTree = "<group>";
+		};
+		0873F5C9233CA939007EFDCD /* Multi-stack BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				0873F5CA233CA939007EFDCD /* Multi_stack_BrowserTests.swift */,
+				0873F5CC233CA939007EFDCD /* Info.plist */,
+			);
+			path = "Multi-stack BrowserTests";
+			sourceTree = "<group>";
+		};
+		0873F5D4233CA939007EFDCD /* Multi-stack BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0873F5D5233CA939007EFDCD /* Multi_stack_BrowserUITests.swift */,
+				0873F5D7233CA939007EFDCD /* Info.plist */,
+			);
+			path = "Multi-stack BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0873F5B3233CA937007EFDCD /* Multi-stack Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0873F5DA233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack Browser" */;
+			buildPhases = (
+				0873F5B0233CA937007EFDCD /* Sources */,
+				0873F5B1233CA937007EFDCD /* Frameworks */,
+				0873F5B2233CA937007EFDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-stack Browser";
+			productName = "Multi-stack Browser";
+			productReference = 0873F5B4233CA937007EFDCD /* Multi-stack Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0873F5C5233CA939007EFDCD /* Multi-stack BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0873F5DD233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack BrowserTests" */;
+			buildPhases = (
+				0873F5C2233CA939007EFDCD /* Sources */,
+				0873F5C3233CA939007EFDCD /* Frameworks */,
+				0873F5C4233CA939007EFDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0873F5C8233CA939007EFDCD /* PBXTargetDependency */,
+			);
+			name = "Multi-stack BrowserTests";
+			productName = "Multi-stack BrowserTests";
+			productReference = 0873F5C6233CA939007EFDCD /* Multi-stack BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0873F5D0233CA939007EFDCD /* Multi-stack BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0873F5E0233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack BrowserUITests" */;
+			buildPhases = (
+				0873F5CD233CA939007EFDCD /* Sources */,
+				0873F5CE233CA939007EFDCD /* Frameworks */,
+				0873F5CF233CA939007EFDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0873F5D3233CA939007EFDCD /* PBXTargetDependency */,
+			);
+			name = "Multi-stack BrowserUITests";
+			productName = "Multi-stack BrowserUITests";
+			productReference = 0873F5D1233CA939007EFDCD /* Multi-stack BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0873F5AC233CA937007EFDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Emir SARI";
+				TargetAttributes = {
+					0873F5B3233CA937007EFDCD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					0873F5C5233CA939007EFDCD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 0873F5B3233CA937007EFDCD;
+					};
+					0873F5D0233CA939007EFDCD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 0873F5B3233CA937007EFDCD;
+					};
+				};
+			};
+			buildConfigurationList = 0873F5AF233CA937007EFDCD /* Build configuration list for PBXProject "Multi-stack Browser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0873F5AB233CA937007EFDCD;
+			productRefGroup = 0873F5B5233CA937007EFDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0873F5B3233CA937007EFDCD /* Multi-stack Browser */,
+				0873F5C5233CA939007EFDCD /* Multi-stack BrowserTests */,
+				0873F5D0233CA939007EFDCD /* Multi-stack BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0873F5B2233CA937007EFDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0873F5BC233CA939007EFDCD /* Assets.xcassets in Resources */,
+				0873F5BF233CA939007EFDCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5C4233CA939007EFDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5CF233CA939007EFDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0873F5B0233CA937007EFDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0873F5BA233CA937007EFDCD /* ViewController.swift in Sources */,
+				0873F5E4233CABA0007EFDCD /* WindowController.swift in Sources */,
+				0873F5B8233CA937007EFDCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5C2233CA939007EFDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0873F5CB233CA939007EFDCD /* Multi_stack_BrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0873F5CD233CA939007EFDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0873F5D6233CA939007EFDCD /* Multi_stack_BrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0873F5C8233CA939007EFDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0873F5B3233CA937007EFDCD /* Multi-stack Browser */;
+			targetProxy = 0873F5C7233CA939007EFDCD /* PBXContainerItemProxy */;
+		};
+		0873F5D3233CA939007EFDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0873F5B3233CA937007EFDCD /* Multi-stack Browser */;
+			targetProxy = 0873F5D2233CA939007EFDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0873F5BD233CA939007EFDCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0873F5BE233CA939007EFDCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0873F5D8233CA939007EFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0873F5D9233CA939007EFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0873F5DB233CA939007EFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Multi-stack Browser/Multi_stack_Browser.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Multi-stack Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0873F5DC233CA939007EFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Multi-stack Browser/Multi_stack_Browser.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Multi-stack Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0873F5DE233CA939007EFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				INFOPLIST_FILE = "Multi-stack BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-stack Browser.app/Contents/MacOS/Multi-stack Browser";
+			};
+			name = Debug;
+		};
+		0873F5DF233CA939007EFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				INFOPLIST_FILE = "Multi-stack BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-stack Browser.app/Contents/MacOS/Multi-stack Browser";
+			};
+			name = Release;
+		};
+		0873F5E1233CA939007EFDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				INFOPLIST_FILE = "Multi-stack BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Multi-stack Browser";
+			};
+			name = Debug;
+		};
+		0873F5E2233CA939007EFDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D4YF34WLDG;
+				INFOPLIST_FILE = "Multi-stack BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitigchi.Multi-stack-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Multi-stack Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0873F5AF233CA937007EFDCD /* Build configuration list for PBXProject "Multi-stack Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0873F5D8233CA939007EFDCD /* Debug */,
+				0873F5D9233CA939007EFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0873F5DA233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0873F5DB233CA939007EFDCD /* Debug */,
+				0873F5DC233CA939007EFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0873F5DD233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0873F5DE233CA939007EFDCD /* Debug */,
+				0873F5DF233CA939007EFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0873F5E0233CA939007EFDCD /* Build configuration list for PBXNativeTarget "Multi-stack BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0873F5E1233CA939007EFDCD /* Debug */,
+				0873F5E2233CA939007EFDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0873F5AC233CA937007EFDCD /* Project object */;
+}
